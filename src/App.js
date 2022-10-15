@@ -51,7 +51,7 @@ function App() {
           </button>
         </div>
 
-        <article className="grid grid-cols-1 mx-5   ">
+        <article className="grid grid-cols-1 mx-5  my-5 ">
           {text.map((item, index) => {
             return (
               <p className="text-sky-800 my-5" key={index}>
